@@ -43,8 +43,8 @@ void setup() {
   Serial.println("Start connecting");
   while (WiFi.status() != WL_CONNECTED) {
     delay(500);
+    Serial.print(".");
   }
-  Serial.print(".");
   Serial.print("Connected to ");
   Serial.print(ssid);
   Serial.print(". IP address: ");
@@ -220,6 +220,7 @@ void handleWin() {
 
 void loop() {
   server.handleClient();
+  mdns.update(); // keep the mDNS responder (esp8266.local) running
   //MG995_Servo.attach(Servo_PWM);
 // yield(); //servo did some unexpected things, this made it less I think
 //  pickUpPiece();

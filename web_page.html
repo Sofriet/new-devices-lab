@@ -805,8 +805,10 @@
                         .then((response) => {
                             console.log(response.status);
                             sendRemove(moveToCellX, moveToCellY)
-                                .then((response) => console.log(response))
-                            checkWin()
+                                .then((response) => {
+                                    console.log(response)
+                                    checkWin()
+                                })
                         })
                 }
             }
