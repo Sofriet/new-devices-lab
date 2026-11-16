@@ -5,9 +5,10 @@ A Stratego board that moves its own pieces. Two players play in a web page, and 
 Made for the New Devices Lab course at Radboud University (2023), together with Robert van der Maas.
 
 <p align="center">
-  <img src="media/demo.gif" width="400" alt="The magnet lowers onto a red pawn, lifts it, carries it one square and sets it down">
+  <img src="media/demo-wide.gif" width="480" alt="The whole board: the gantry picks up a red pawn and puts it down on another square">
+  <img src="media/demo.gif" width="264" alt="Closer view: the magnet lowers onto a red pawn, lifts it, carries it one square and sets it down">
   <br>
-  <sub>Picking up a piece and moving it one square (3× speed)</sub>
+  <sub>Moving a piece, seen from a distance and up close (3× speed)</sub>
 </p>
 
 ![The board: a black steel frame with a belt-driven gantry above a hand-drawn 8×8 Stratego board](media/board.jpg)
